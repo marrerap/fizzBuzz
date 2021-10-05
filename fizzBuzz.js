@@ -1,0 +1,1 @@
+let answer = prompt('Please enter a number you would like to fizzbuzz: ')
