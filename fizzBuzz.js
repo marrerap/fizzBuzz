@@ -1,10 +1,8 @@
-const prompt = require('prompt')
+const prompt = require('prompt-sync')({sigint: true});
 
-prompt.start();
-
-prompt.get('Enter a number you would like to get fizzbuzzed: ', function(result){
-    console.log(result)
+const answer = parseInt(prompt('Please enter a number you would like to be FizzBuzzed: '));
 
 
-})
+
+console.log(answer)
 
